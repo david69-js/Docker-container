@@ -1,0 +1,11 @@
+wordpressProject
+DavidSQL
+5hzEOt4wqYY@LKhY*Q
+da3909622@gmail.com
+
+
+//// MYSQL PHP
+
+db
+root
+example
