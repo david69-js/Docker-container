@@ -20,7 +20,7 @@
                         <div class="card-body">
                             <form action="#" method="POST">    
                                     <div class="form-group">
-                                        <label for="numberOne">Number One</label>
+                                        <label for="numberOne">Number nines</label>
                                         <input type="number" name="numberOne">
                                     </div>
 
