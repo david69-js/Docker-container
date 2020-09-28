@@ -1,1 +1,4 @@
-.vscode
+vscode/
+db/
+node_modules/
+*.json

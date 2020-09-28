@@ -1,0 +1,16 @@
+@import 'mixins';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+body{
+   background: url('../img/cubes.png') rgb(204, 203, 203);
+}

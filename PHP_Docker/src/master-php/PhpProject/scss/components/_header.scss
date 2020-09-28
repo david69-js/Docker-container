@@ -1,0 +1,19 @@
+/*Create header style*/
+@import 'mixins';
+
+#header{
+    width: 100%;
+    height: auto;
+    background: transparent;
+    margin: 0px auto;
+    border: 2px solid black;
+    #logo{
+        float: left;
+        width: 540px;
+        height: 140px;  
+        a{
+           @include logo;
+
+        }      
+    }
+}

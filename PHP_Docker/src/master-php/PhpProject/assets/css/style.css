@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'fajala';
+  src: url("../fonts/fuente.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+body {
+  background: url("../img/cubes.png") #cccbcb;
+}
+
+/*Create header style*/
+@font-face {
+  font-family: 'fajala';
+  src: url("../fonts/fuente.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#header {
+  width: 100%;
+  height: auto;
+  background: transparent;
+  margin: 0px auto;
+  border: 2px solid black;
+}
+
+#header #logo {
+  float: left;
+  width: 540px;
+  height: 140px;
+}
+
+#header #logo a {
+  font-family: "fajala";
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: #7d7dcc;
+}

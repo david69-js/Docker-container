@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'fajala';
+    src: url("../fonts/fuente.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@mixin logo ($family: 'fajala', $zise: 40px, $spacing: 3px, $color:rgb(125, 125, 204) ){
+    font-family: $family;
+    font-size: $zise;
+    letter-spacing: $spacing;
+    color: $color;
+}  
