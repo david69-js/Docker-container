@@ -9,23 +9,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!----------CDN-Bootstrap-------->    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <!-------------Font Awasome---------------->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
     <!-----------CSS---------->
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Php Project</title>
 </head>
 <body>
 
-    <!-----------Cabecera-------------->
+     <!-----------Cabecera-------------->
 
-        <header id="header">
+     <header id="header">
             <div id="logo">
-                <a href="index.php">Blog de Videojuegos</a>
+                <a href="index.php" >Blog de Videojuegos</a>
             </div>
        
     <!-----------Menu -------------->
         <nav id="nav">
+ 
             <ul>
                 <li><a href="index.php">Inicio</a></li>
                 <li><a href="index.php">Categoria 1</a></li>
@@ -35,8 +41,16 @@
                 <li><a href="index.php">Sobre mi</a></li>
                 <li><a href="index.php">Contacto</a></li>
             </ul>
+            <input type="checkbox" id="check">
+            <label for="check" >
+                <i class="fas fa-bars" class="botton"></i>
+            </label>
+        <div class="clearfix"></div>
         </nav>
+ 
     </header>
+
+   
     <div class="container">
 
          

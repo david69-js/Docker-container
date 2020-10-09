@@ -9,7 +9,7 @@
   margin: 0px;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .clearfix {
@@ -30,22 +30,68 @@ body {
 }
 
 #header {
-  width: 100%;
+  width: 90%;
   height: auto;
   background: transparent;
   margin: 0px auto;
-  border: 2px solid black;
 }
 
 #header #logo {
+  margin-top: 20px;
+  margin-left: 10px;
   float: left;
   width: 540px;
-  height: 140px;
-}
-
-#header #logo a {
+  height: 100px;
+  text-shadow: 0px 0px 0px black, 1px 1px 0px black, 2px 2px 0px black;
+  transition: all 10000ms;
   font-family: "fajala";
   font-size: 40px;
   letter-spacing: 3px;
   color: #7d7dcc;
 }
+
+#header #logo a:hover {
+  cursor: pointer;
+  text-shadow: 0px 0px 0px black, -1px -1px 0px black, -2px -2px 0px black;
+}
+
+/*Create manu */
+#nav {
+  clear: both;
+  width: 100%;
+  height: 45px;
+  background: linear-gradient(to bottom, whitesmoke 0px, #dddddd 100%);
+  border: 3px solid #afa8a8;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px gray;
+}
+
+#nav ul {
+  list-style: none;
+}
+
+#nav ul li {
+  float: left;
+  line-height: 19px;
+  border-right: 3px solid #bfbfbf;
+}
+
+#nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #928f8f;
+}
+
+ul li:hover {
+  background: linear-gradient(to bottom, #bdadad 0px, #bfbfbf 100%);
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: wheat;
+  float: right;
+  line-height: 80px;
+}
+
+/*Media querys*/
+/*Create style content*/
