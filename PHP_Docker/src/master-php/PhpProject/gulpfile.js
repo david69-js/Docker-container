@@ -12,7 +12,7 @@ const gulp = require('gulp'),
 
     gulp.task('default', () =>{
        return gulp.watch('./scss/style.scss', gulp.series(['sass']));
-    })
+    });
 /*funciones requeridas en gulp si o si
     gulp.task
     gulp.src();

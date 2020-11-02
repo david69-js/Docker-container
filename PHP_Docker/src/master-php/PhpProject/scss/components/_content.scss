@@ -1,2 +1,96 @@
 /*Create style content*/
 
+@import 'mixins';
+
+.container1{
+    width: 85%;
+    min-height: auto;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    /*Create Sidebar style*/
+    #sidebar{
+        float: right;
+        width: 25%;
+        min-height: auto;
+        .block-aside{
+            display: block;
+            width: 90%;
+            margin: 0px 45px 5% 5%;
+            padding: 15px;
+            background: white;
+            border: 2px solid rgb(197, 194, 194);
+            border-radius: 4px;
+            box-shadow: 3px 5px 3px gray;
+            p{
+                @include textype(20px, rgb(10, 10, 10), 1px 1px 1px black);
+            }
+        }
+    
+    }
+    /*Create inputs style*/
+    .inputs{
+        float: left;
+        width: 65%;
+        min-height: 615px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px gray;  
+        margin-left: 5px;  
+        padding: 20px;
+        overflow: hidden;
+
+        h1{
+            @include textype;
+        }
+        a{
+            color: black;
+            text-decoration: none !important;
+            h2{
+                @include textype(22px, rgb(125, 125, 204), 1px 1px 1px black);
+                margin-top: 25px;
+            }
+        }
+        p{
+            margin-top: 8px;
+        }
+    }
+    .ver-todas{
+        display: block;
+        background:rgb(24, 24, 123);
+        border-radius: 4px;
+        width: 25%;
+        margin-left: 30%;
+        a{
+            color: wheat !important;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    }
+
+}
+.alert{
+    background:green;
+    box-shadow: 0p 1px 4px gray;    
+    color: white;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+.fail-alert{
+    background: red;
+}
+
+/*Create footer style*/
+#footer{
+    background: #bfbfbf;
+    opacity: 0.5;
+    width: 85%;
+    justify-content: center;
+    border-bottom: none;
+    border-radius: 8px 8px 0px 0px;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+}

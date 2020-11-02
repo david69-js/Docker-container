@@ -11,3 +11,10 @@
     letter-spacing: $spacing;
     color: $color;
 }  
+
+@mixin textype ($size:32px, $color: rgb(55, 55, 55), $shadow: 1px 1px 1px #ccc, $type: 'fajala'){
+  font-size: $size;
+  color: $color;
+  text-shadow: $shadow;
+  font-family: $type;
+}

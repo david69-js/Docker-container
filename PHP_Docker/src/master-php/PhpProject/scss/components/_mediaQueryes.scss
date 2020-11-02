@@ -1,0 +1,68 @@
+
+/*Content media query*/
+@media all and (max-width: 800px){
+    body{
+        overflow-x: hidden;
+
+        .container1{
+    
+            width: 100%;
+            min-height: 20px;
+            margin-bottom: 5px;
+    
+            .inputs{
+                width: 98%;
+                color: red;
+             
+            }
+            #sidebar{
+                margin-top: 125px;
+                float: none;
+                width: 100%;
+                color: red;
+                display: block;
+                min-height: 0px;
+        }
+       }
+    }
+}
+
+@media screen and (max-width: 910px){
+    .allnav{
+        margin-left: -35px;
+        #nav{
+            width: 85%;
+            height: 100%;
+            background: red;
+            position: fixed;
+            margin-left: -100%;
+            
+            ul{
+                li{
+                    display: block;
+                    float: none;
+                    border-bottom: 2px solid rgba(255, 255, 255, 0.3 );
+    
+                }
+            }
+        }
+    }
+
+    .icon-menu{
+        display: block;
+        width: 100%;
+        background: white;
+        .botton{
+            width: 100%;
+            display: block;
+            padding: 10px;
+            background:white;
+            font-size: 30px;
+            .fas{
+                float: right;
+            }
+        }
+    }
+}
+
+
