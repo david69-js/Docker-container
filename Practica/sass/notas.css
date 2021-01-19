@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&family=Luckiest+Guy&family=Staatliches&display=swap");
+.agrega {
+  margin-left: 18rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
+  text-align: center !important;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+h3, .h3 {
+  font-size: 4.75rem;
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+.for {
+  margin-left: 6rem;
+}
+
+.buscaCaja {
+  padding-left: 12%;
+}
+
+.buscaTitulo {
+  text-align: center;
+  background: #8d9fd6;
+  padding: 2rem;
+  margin-bottom: -8%;
+}
+.buscaTitulo h3 {
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
+  font-size: 51px;
+}
+
+.separa {
+  height: 3rem;
+  background: #ff4343;
+  width: 20rem;
+}
+
+.place {
+  height: 5rem;
+  width: 95%;
+  margin: 0 3%;
+}
+
+.place2 {
+  width: 90%;
+  margin: 0 5%;
+  height: 4rem;
+}
+
+.formu {
+  background: #ffd4e8 !important;
+  height: 300px;
+}
+
+.formu1 {
+  background: #ffd4e8 !important;
+}
+
+.form-control {
+  background: #bebaba;
+}
+
+input::placeholder {
+  font-size: 1.3em;
+  text-align: center;
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
+  letter-spacing: 3px;
+  background: #bebaba;
+}
+
+#enviar {
+  background: #e06767;
+  border: none;
+  padding: 3px 25px;
+  height: 3rem;
+  width: 9rem;
+  font-size: 30px;
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
+}
+
+#buscarV {
+  background: #e06767;
+  border: none;
+  padding: 3px 25px;
+  font-size: 20px;
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
+}
+
+#completado {
+  text-decoration: line-through;
+}
+
+.borde {
+  padding: 2rem;
+}
+
+.otro {
+  width: 17rem;
+}
+
+.mb-3 {
+  background: #fff7ab;
+}
+
+.md-3 {
+  background: #fff7ab;
+}
+
+.btn {
+  background: #e06767;
+  color: black;
+}
+
+.btn1 {
+  background: gray;
+}
+
+body {
+  background: #ff4343;
+}
+body h2 {
+  background: gray;
+}
+
+h1, .h1 {
+  font-size: 6rem;
+  font-family: "Jockey One", sans-serif;
+  font-weight: bold;
+}
+
+a {
+  background: #e06767;
+  font-family: "Jockey One", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none !important;
+  padding: 20px;
+  color: black;
+}
+
+.link {
+  margin-top: 35px;
+}

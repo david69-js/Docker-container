@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Staatliches&display=swap');
+@mixin  letra {
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+  }
+
+.agrega{
+    margin-left: 18rem;
+}
+
+h2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    @include letra();
+    text-align: center !important;
+    width: fit-content;
+}
+h3, .h3 {
+    font-size: 4.75rem;
+    @include letra();
+    text-align: center;
+}
+
+
+p{
+    @include letra();
+    text-align: center;
+}
+
+.for{
+    margin-left: 6rem;
+}
+
+.buscaCaja{
+    padding-left: 12%;
+}
+.buscaTitulo{
+    text-align: center;
+    background: rgb(141, 159, 214);
+    padding: 2rem;
+    margin-bottom: -8%;
+    h3{
+        @include letra();
+        font-size: 51px;
+    }
+}
+.separa{
+    height: 3rem;
+    background: rgb(255, 67, 67);
+    width: 20rem;
+}
+
+.place{
+    height: 5rem;
+    width: 95%;
+    margin: 0 3%;
+}
+.place2{
+    width: 90%;
+    margin: 0 5%;
+    height: 4rem;
+}
+
+.formu{
+    background: rgb(255, 212, 232) !important;
+    height: 300px;
+  }
+  
+.formu1{
+    background: rgb(255, 212, 232) !important;
+  }
+.form-control{
+    background: rgb(190, 186, 186);
+}
+input::placeholder {
+
+    font-size: 1.3em;
+    text-align: center;
+    @include letra();
+    letter-spacing: 3px;
+    background: rgb(190, 186, 186);
+  }
+  #enviar{
+      background: rgb(224, 103, 103);
+      border: none;
+      padding:3px 25px ;
+      height: 3rem;
+      width: 9rem;
+      font-size: 30px;
+      @include letra();
+  }
+#buscarV{
+      background: rgb(224, 103, 103);
+      border: none;
+      padding:3px 25px ;
+      font-size: 20px;
+      @include letra();
+}
+ 
+#completado{
+    text-decoration: line-through;
+}
+
+.borde{
+    padding: 2rem;
+}
+
+.otro{
+    width: 17rem;
+}
+.mb-3{
+    background: rgb(255, 247, 171);
+}
+.md-3{
+    background: rgb(255, 247, 171);
+}
+.btn{
+    background: rgb(224, 103, 103);
+    color: black;
+}
+.btn1{
+    background: gray;
+}

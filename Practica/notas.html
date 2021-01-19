@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="sass/notas.css">
+    
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col col-md-8">
+                <h1>BLOC DE NOTAS</h1>
+            </div>
+            <div class="link">
+                <div class="col col-md-3"><a href="inicio.html">Inicio</a></div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="container-fluid">
+        <!---------Fomularios--------->
+        <div class="row agrega">
+            <div class="col col-md-5">
+                
+            </div>
+        </div>
+        <div class="row for">
+            <div class="col col-md-7 justify-content-center" >
+
+                <h3>Agrega una Nota</h3>
+                <div class="card formu">
+                    <div class="card-body">
+    
+                        <form action="#" id="notasF">
+                            <div class="form-group pt-3">
+                                <input type="text" id="nombre" placeholder="Agrega una nota" class="form-control place2">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="descripcion" placeholder="Agrega una descripcion" class="form-control place"> 
+                            </div>
+                            <div class="row justify-content-end pr-5 pt-3">
+                                <div class="form-group">
+                                    <input type="submit" id="enviar" value="Guardar" >
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="buscaCaja col-md-5">
+                <div class="card formu1" style="border: none;">
+                    <div class="buscaTitulo">
+                        <h3>Buscar Notas</h3>  
+                    </div>  <br>
+                    <div class="separa" style=" height: 3rem;
+                                                background: rgb(255, 67, 67);
+                                                width: auto;">
+                    </div>
+                    <div class="card-body">
+                        <form action="#" id="buscarN">
+                            <div class="form-group">
+                                <input type="text" id="buscar" placeholder="Busca tus Notas" class="form-control">
+                            </div>
+                            <div class="row justify-content-end pr-3 pt-3">
+                                <div class="form-group">
+                                    <input type="submit" id="buscarV" value="Buscar">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>  
+                    <!----------Cajas de Contenido---------------->
+            <div class="borde col-md-3">
+                <h2>Notas Sin Completar</h2>
+                <div id="mostrarS"></div>
+            </div>
+            
+            <div class="borde col-md-3">
+                <h2>Notas Completadas</h2>
+                <div id="mostrarC"></div>
+        
+            </div>
+            <div class="otro"></div>
+            <div class="borde col-md-3">
+                <h2>Notas Encontradas</h2>
+                <div id="mostrarB"></div>
+            </div>
+        </div>
+    </div>
+
+    <!---------Script index----------->
+    <script src="js/index.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Staatliches&display=swap");
+body {
+  min-height: 100vh;
+  background-image: url("../img/David1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.color {
+  background: #ff4343;
+}
+.color p {
+  font-size: 70px;
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
+  transform:scaleX(2);
+}
+.color #p1 {
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
+  margin-top: -40px;
+  margin-bottom: -20px;
+}
+
+.ima {
+  padding-top: 57px;
+  padding-left: 32%;
+  width: 71%;
+}
+.ima p {
+  font-size: 3rem;
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
+}
+
+.empezar {
+  padding-left: 38%;
+  padding-top: 10%;
+}
+.empezar p {
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
+}
+.empezar p a {
+  text-decoration: none !important;
+  padding: 17px;
+  font-size: 50px;
+  color: white;
+  background: linear-gradient(to right, #3dbebe, white);
+  box-shadow: -30px 15px 5px 0px rgba(0, 0, 0, 0.75);
+}
